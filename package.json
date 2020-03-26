@@ -33,7 +33,7 @@
     "@types/semver": "6.2.0",
     "husky": "4.2.3",
     "jest": "24.9.0",
-    "jest-circus": "24.9.0",
+    "jest-circus": "25.2.2",
     "ts-jest": "24.3.0",
     "typescript": "3.8.3",
     "webpack": "4.42.1",
