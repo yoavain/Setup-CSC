@@ -20,7 +20,7 @@
   "author": "GitHub",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "1.2.3",
+    "@actions/core": "1.2.4",
     "@actions/exec": "1.0.4",
     "@actions/github": "4.0.0",
     "@actions/io": "1.0.2",
@@ -28,16 +28,16 @@
     "semver": "7.3.2"
   },
   "devDependencies": {
-    "@types/jest": "25.2.1",
-    "@types/node": "13.11.1",
+    "@types/jest": "26.0.9",
+    "@types/node": "14.0.27",
     "@types/semver": "7.3.1",
     "husky": "4.2.5",
-    "jest": "25.3.0",
-    "jest-circus": "25.3.0",
-    "ts-jest": "25.3.1",
-    "typescript": "3.8.3",
+    "jest": "26.3.0",
+    "jest-circus": "26.3.0",
+    "ts-jest": "26.2.0",
+    "typescript": "3.9.7",
     "webpack": "4.44.1",
-    "webpack-cli": "3.3.11"
+    "webpack-cli": "3.3.12"
   },
   "husky": {
     "hooks": {
