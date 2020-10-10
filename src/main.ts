@@ -3,7 +3,7 @@ import * as tc from '@actions/tool-cache';
 import * as exec from '@actions/exec';
 import * as path from 'path';
 import * as fs from 'fs';
-import { ExecOptions } from '@actions/exec/lib/interfaces';
+import type { ExecOptions } from '@actions/exec/lib/interfaces';
 
 async function run() {
     try {
@@ -23,7 +23,7 @@ async function run() {
 
         // Try & find tool in cache
         let directoryToAddToPath: string;
-        directoryToAddToPath = await tc.find("vswhere", "2.7.1");
+        directoryToAddToPath = await tc.find("vswhere", "2.8.4");
 
         if (directoryToAddToPath) {
             core.debug(`Found local cached tool at ${directoryToAddToPath} adding that to path`);
@@ -36,9 +36,9 @@ async function run() {
             return;
         }
 
-        // Download VSWhere 2.7.1 release
-        core.debug("Downloading VSWhere v2.7.1 tool");
-        const vsWherePath = await tc.downloadTool("https://github.com/microsoft/vswhere/releases/download/2.7.1/vswhere.exe");
+        // Download VSWhere 2.8.4 release
+        core.debug("Downloading VSWhere v2.8.4 tool");
+        const vsWherePath = await tc.downloadTool("https://github.com/microsoft/vswhere/releases/download/2.8.4/vswhere.exe");
 
         // Rename the file which is a GUID without extension
         const folder = path.dirname(vsWherePath);
@@ -46,7 +46,7 @@ async function run() {
         fs.renameSync(vsWherePath, fullPath);
 
         //Cache the directory with VSWhere in it - which returns a NEW cached location
-        const cachedToolDir = await tc.cacheDir(folder, "vswhere", "2.7.1");
+        const cachedToolDir = await tc.cacheDir(folder, "vswhere", "2.8.4");
         core.debug(`Cached Tool Dir ${cachedToolDir}`);
 
         cscPath = await FindCSC(cachedToolDir);

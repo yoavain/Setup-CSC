@@ -1,4 +1,11 @@
-# setup-CSC ![types](https://img.shields.io/npm/types/typescript.svg) ![commit](https://img.shields.io/github/last-commit/yoavain/Setup-CSC.svg) [![Known Vulnerabilities](https://snyk.io//test/github/yoavain/Setup-CSC/badge.svg?targetFile=package.json)](https://snyk.io//test/github/yoavain/Setup-CSC?targetFile=package.json) ![dependabot](https://api.dependabot.com/badges/status?host=github&repo=yoavain/Setup-CSC)
+# setup-CSC
+[![Actions Status](https://github.com/yoavain/Setup-CSC/workflows/PR%20Checks/badge.svg)](https://github.com/yoavain/Setup-CSC/actions)
+![types](https://img.shields.io/npm/types/typescript.svg)
+![commit](https://img.shields.io/github/last-commit/yoavain/Setup-CSC.svg)
+[![Known Vulnerabilities](https://snyk.io//test/github/yoavain/Setup-CSC/badge.svg?targetFile=package.json)](https://snyk.io//test/github/yoavain/Setup-CSC?targetFile=package.json)
+![renovate](https://badges.renovateapi.com/github/yoavain/Setup-CSC)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=yoavain.Setup-CSC)
+
 
 This action sets up csc.exe as a CLI tool for use in actions by:
 - optionally downloading and caching a version of VSWhere.exe to help find the latest CSC on the machine
