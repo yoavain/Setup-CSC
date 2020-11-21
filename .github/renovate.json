@@ -14,5 +14,6 @@
             "updateTypes": ["minor", "patch"],
             "automerge": true
         }
-    ]
+    ],
+    "prConcurrentLimit": 5
 }
