@@ -4,6 +4,7 @@
 ![commit](https://img.shields.io/github/last-commit/yoavain/Setup-CSC.svg)
 [![Known Vulnerabilities](https://snyk.io//test/github/yoavain/Setup-CSC/badge.svg?targetFile=package.json)](https://snyk.io//test/github/yoavain/Setup-CSC?targetFile=package.json)
 ![renovate](https://badges.renovateapi.com/github/yoavain/Setup-CSC)
+![used by](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dyoavain%2FSetup-CSC%26badge%3Dtrue)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=yoavain.Setup-CSC)
 
 
