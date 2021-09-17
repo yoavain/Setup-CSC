@@ -13,7 +13,7 @@ module.exports = {
 		filename: 'main.js'
 	},
 	plugins: [
-		new webpack.IgnorePlugin(/\.(css|less)$/)
+		new webpack.IgnorePlugin({ resourceRegExp: /\.(css|less)$/ })
 	],
 	optimization: {
 		minimize: false
