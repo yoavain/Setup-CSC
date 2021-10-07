@@ -21,7 +21,7 @@
   "license": "MIT",
   "engines": {
     "node": ">=10 <15",
-    "npm": "<7"
+    "npm": "<9"
   },
   "dependencies": {
     "@actions/core": "1.6.0",
