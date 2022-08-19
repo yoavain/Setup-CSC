@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/jest": "28.1.7",
-    "@types/node": "16.11.49",
+    "@types/node": "16.11.51",
     "@types/semver": "7.3.12",
     "husky": "8.0.1",
     "jest": "28.1.3",
